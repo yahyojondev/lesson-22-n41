@@ -1,0 +1,109 @@
+/* index start  */
+.container{
+    max-width: 1300px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+#home{
+    padding: 128px 0px 128px;
+    background: #1C1E53;
+    
+}
+.project__bottom__left{
+    position: relative;
+    max-width: 843px;
+    width: 100%;
+    flex-shrink: 0;
+}
+.project__bottom__left__content{
+    position: absolute;
+    left: -1000px;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    transition: 0.5s;
+}
+.project__bottom__left:hover :is(.project__bottom__left__content){
+    left: 0;
+}
+.project__bottom__right__top{
+    position: relative;
+    max-width: 414px;
+    height: 284px;
+    flex-shrink: 0;
+}
+.project__bottom__right__top__content{
+    
+    padding: 129px 50px 45px 56px;
+    position: absolute;
+    right: -520px;
+    max-width: 405px;
+    height: 284px;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    flex-shrink: 0;
+    transition: 0.5s;
+}
+.project__bottom__right__top:hover :is(.project__bottom__right__top__content){
+    right: 0;
+}
+#design{
+    background: #F4F6FC;
+}
+
+/* index end  */
+
+
+/* about start  */
+.focussed__wrapper{
+    background-color: #F4F5F5;
+}
+#team{
+    padding: 128px 0px 128px;
+    background: var(--Grey, #F4F6FC);
+}
+/* about end */
+#pricing{
+    padding: 128px 0px 128px;
+}
+/* pricing start  */
+.pricing__card{
+    border-radius: 12px;
+    background: var(--Grey, #F4F6FC);
+}
+.pricing__list{
+    /* list-style: url(../images/pricing_right.svg); */
+}
+.card__2{
+    border-radius: 12px;
+    background: #1C1E53;
+}
+/* pricing end */
+
+/* blog start  */
+#blog{
+    padding: 128px 0px 128px;
+}
+
+/* blog start  */
+#backtop {
+    border: none;
+    position: fixed;
+    right: 50px;
+    bottom: -60px;
+    z-index: 1;
+    border-radius: 10px;
+    background-color: transparent;
+    background-color: #77B2D3;
+    transition: 0.5s;
+}
+
+#backtop a {
+    display: block;
+    padding: 15px 10px;
+}
+
+#backtop.backtop-show {
+    bottom: 50px;
+}
