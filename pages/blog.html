@@ -1,53 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
 </head>
 <body>
-    <button id="backtop">
-        <a href="#">
-            <img src="../images/top.svg" alt="top">
-        </a>
-        <!-- <header id="header" class="header">
-            <nav class="container">
-                <div class="navbar">
-                    <img src="images/header.logo.svg" alt="logo" class="navbar__img">
-                    <ul class="navbar__list">
-                        <li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
-                        <li class="navbar__item"><a href="#" class="navbar__link">About us</a></li>
-                        <li class="navbar__item"><a href="#" class="navbar__link">Pricing</a></li>
-                        <li class="navbar__item"><a href="#" class="navbar__link">Work</a></li>
-                        <li class="navbar__item"><a href="#" class="navbar__link">Blog</a></li>
-                        <li class="navbar__item"><button class="navbar__btn">Contact us</button></li>
-                    </ul>
-                </div>
-            </nav>
-        </header> -->
+  <button id="backtop">
+    <a href="#">
+      <img src="../images/top.svg" alt="top">
+    </a>
+</button>
+ <header>
+        <div class="container">
+             <nav class="navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="../images/header.logo.svg" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation" style="border: none;">
+      <!-- <span class="" style="border: none;"></span> -->
+      <img class="img__header" src="../images/header.menu.svg" alt="menu">
     </button>
-    <main>
-        <section id="blog" class="blog">
-            <div class="container">
-                <div class="blog__wrapper">
-                    <div class="blog__top d-flex flex-column align-items-center justify-content-center">
-                        <h1 class="text-black text-center w-100 mb-3" style="max-width: 700px;">A UX Case Study on Creating a Studious Environment for Students</h1>
-                        <pre class="text-black mb-4"> Andrew Jonson  Posted on 27th January 2021</pre>
-                    </div>
-                    <div class="blog__bottom d-flex flex-column align-items-center justify-content-center">
-                        <img class="w-100 mb-5" style="max-width: 1280px;" src="../images/blog.home.svg" alt="">
-                        <p class="text-secondary mb-2 text-center" style="max-width: 720px;">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.</p>
-                        <a class=" nav-link text-primary d-flex justify-content-center" href="./about.html">Read more</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        
-    </footer>
-    <script src="../js/bootstrap.bundle.min.js"></script>
+    <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header bg-warning">
+        <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+        <img src="../images/header.logo.svg" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" href="#">Contact us</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+        </div>
+    </header>
+<main>
+  <section id="blog" class="blog">
+    <div class="container">
+      <div class="blog__wrapper">
+        <div class="blog__top d-flex flex-column align-items-center justify-content-center">
+          <h1 class="text-black text-center w-100 mb-3" style="max-width: 700px;">A UX Case Study on Creating a Studious Environment for Students</h1>
+          <pre class="text-black mb-4"> Andrew Jonson  Posted on 27th January 2021</pre>
+        </div>
+        <div class="blog__bottom d-flex flex-column align-items-center justify-content-center">
+          <img class="w-100 mb-5" style="max-width: 1280px;" src="../images/blog.home.svg" alt="">
+          <p class="text-secondary mb-2 text-center" style="max-width: 720px;">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.</p>
+          <a class=" text-decoration-none text-primary d-flex justify-content-center" href="./about.html">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="our__blog" class="our__blog">
+    <div class="container">
+        <h2 class="d-flex justify-content-center mb-5">Our Blog</h2>
+    <div class="cards d-flex flex-wrap justify-content-between">
+      <div class="col-4">
+        <img src="../images/ourblog1.svg" alt="img">
+        <div class="col__middle">
+          <span>27 Jan 2021</span>
+          <h6>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+          <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+          <a class="blog__link d-flex align-items-center gap-2 text-decoration-none" href="#"><strong>Read More</strong><img src="../images/ourblogline.svg" alt="line"></a>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="../images/ourblog-2.svg" alt="img">
+        <div class="col__middle">
+          <span>27 Jan 2021</span>
+          <h6>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+          <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+          <a class="blog__link d-flex align-items-center gap-2 text-decoration-none" href="#"><strong>Read More</strong><img src="../images/ourblogline.svg" alt="line"></a>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="../images/ourblog-3.svg" alt="img">
+        <div class="col__middle">
+          <span>27 Jan 2021</span>
+          <h6>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+          <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+          <a class="blog__link d-flex align-items-center gap-2 text-decoration-none" href="#"><strong>Read More</strong><img src="../images/ourblogline.svg" alt="line"></a>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="../images/ourblog-4.svg" alt="img">
+        <div class="col__middle">
+          <span>27 Jan 2021</span>
+          <h6>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+          <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+          <a class="blog__link d-flex align-items-center gap-2 text-decoration-none" href="#"><strong>Read More</strong><img src="../images/ourblogline.svg" alt="line"></a>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="../images/ourblog-5.svg" alt="img">
+        <div class="col__middle">
+          <span>27 Jan 2021</span>
+          <h6>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+          <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+          <a class="blog__link d-flex align-items-center gap-2 text-decoration-none" href="#"><strong>Read More</strong><img src="../images/ourblogline.svg" alt="line"></a>
+        </div>
+      </div>
+      <div class="col-4">
+        <img src="../images/ourblog-6.svg" alt="img">
+        <div class="col__middle">
+          <span>27 Jan 2021</span>
+          <h6>How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+          <p>See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+          <a class="blog__link d-flex align-items-center gap-2 text-decoration-none" href="#"><strong>Read More</strong><img src="../images/ourblogline.svg" alt="line"></a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <section id="footer">
+    <div class="container">
+      <div class="footer__wrapper d-flex justify-content-between">
+        <div class="footer__left">
+          <div class="footer__left__top">
+            <img class="footer__left__img" src="../images/header.logo.svg" alt="logo">
+            <p class="footer__text">We are always open to discuss your project and improve your online presence.</p>
+          </div>
+          <div class="footer__left__bottom">
+            <img src="../images/footer.bootom.png" alt="img">
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__rigth__top">
+            <h3 class="footer__title">Lets Talk!</h3>
+            <p class="footer__text">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+          </div>
+          <div class="footer__rigth__bottom">
+            <img src="../images/facebook.svg" alt="logo">
+            <img src="../images/twitter.svg" alt="logo">
+            <img src="../images/instagramm.svg" alt="logo">
+            <img src="../images/in.svg" alt="logo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+<script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
